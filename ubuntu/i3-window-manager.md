@@ -54,6 +54,30 @@ exec_always --no-startup-id feh --bg-scale ~/path_to_some_image.png
 After you have added the previous line to your configuration file,
 restart i3 to see your background.
 
+### How to change theme of GTK apps in i3
+
+You can change theme of GTK apps in i3 using `lxappearance` app, which can be installed using this command:
+
+```bash
+sudo apt install lxappearance
+```
+
+### How to change theme of QT apps in i3
+
+You can change theme of QT apps in i3 using `qt5ct` app, which can be installed using this command:
+
+```bash
+sudo apt install qt5ct
+```
+
+To make changing styles of QT apps in i3 work, you have to add the following line into `/etc/environment` file:
+
+```bash
+QT_QPA_PLATFORMTHEME=qt5ct
+```
+
+After you have installed `qt5ct` and edited `/etc/environment`, try log out and log in back to i3. Changing styles of QT apps using `qt5ct` should now work.
+
 ### Alternative application launchers
 
 By default, i3 uses `dmenu` to show an application launcher.
