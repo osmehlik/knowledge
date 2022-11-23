@@ -1,8 +1,6 @@
 
 # How to use i3 window manager on Ubuntu
 
-**This article is a work-in-progress.**
-
 ## What is i3?
 
 [i3](https://i3wm.org/) is a window manager for Linux.
@@ -94,3 +92,20 @@ You can install `rofi` using the following command:
 sudo apt install rofi
 ```
 
+### How to add visual effects to i3
+
+You can add some visual effects to i3 using `compton`. You can install compton with this command:
+
+```bash
+sudo apt install compton
+```
+
+I recommend using [this configuration file](https://pastebin.com/S8m1jnY3). Save it to `~/.config/compton.conf`.
+
+Add the following line to your `~/.config/i3/config`:
+
+```
+exec_always --no-startup-id compton --opacity-rule '100:window_type = "dock" && class_g = "i3bar"' --config ~/.config/compton.conf -b
+```
+
+Log out and log back in for changes to take effect.
