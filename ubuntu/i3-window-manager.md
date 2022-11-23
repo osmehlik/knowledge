@@ -30,8 +30,9 @@ you can logout and on login screen you should be able to select i3.
 
 ## Customizing i3
 
-Read [i3 User's Guide](https://i3wm.org/docs/userguide.html)
-to learn about how to do basic configuration of i3.
+The i3's configuration is in `~/.config/i3/config` file.
+
+Read [i3 User's Guide](https://i3wm.org/docs/userguide.html) to learn about how to do basic configuration of i3.
 
 ### How to set a background image
 
