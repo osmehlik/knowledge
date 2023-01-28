@@ -9,4 +9,4 @@ This is my personal knowledge base.
 - [Notetaking](ubuntu/notetaking.md)
 - [Presentations](ubuntu/presentations.md)
 - [Screencasting](ubuntu/screencasting.md)
-
+- [Graphics](ubuntu/graphics.md)
