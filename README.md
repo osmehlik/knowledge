@@ -3,10 +3,7 @@
 
 This is my personal knowledge base.
 
-## Ubuntu
+Available topics:
 
-- [i3 window manager](ubuntu/i3-window-manager.md)
-- [Notetaking](ubuntu/notetaking.md)
-- [Presentations](ubuntu/presentations.md)
-- [Screencasting](ubuntu/screencasting.md)
-- [Graphics](ubuntu/graphics.md)
+- [Data Science](data-science/README.md)
+- [Ubuntu](ubuntu/README.md)
