@@ -6,4 +6,4 @@
 - [Presentations](presentations.md)
 - [Screencasting](screencasting.md)
 - [Graphics](graphics.md)
-- [Multiple monigors](multiple-monitors.md)
+- [Multiple monitors](multiple-monitors.md)
