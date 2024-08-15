@@ -1,7 +1,7 @@
 
 # Ubuntu HowTo Guides
 
-- [i2 window manager](i3-window-manager.md)
+- [i3 window manager](i3-window-manager.md)
 - [Notetaking](notetaking.md)
 - [Presentations](presentations.md)
 - [Screencasting](screencasting.md)
